@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="Cart.css">
+</head>
+<body>
+  <header>
+    <h1 id="top">Online</h1>
+    <h1 id="top1">PizzaShop</h1>
+  </header>
+  <hr>
+  <nav id="navbar">
+    <img src="logo.jpg"height="10px">
+    <ul id="navcontent">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="Menu.html">Menu</a></li>
+      <li><a href="contact.html">ContactUs</a></li>
+      <li><a href="Checkout.html">Cart</a></li>
+
+    </ul>
+  </nav>
+	
+  <div class="col-25">
+    <div class="container">
+      <h4>Cart
+        <span class="price" style="color:black">
+          <i class="shopping-cart"></i>
+          <b>4</b>
+        </span>
+      </h4>
+      <p><a href="#">Margherita pizza</a> <span class="price">200</span></p>
+      <p><a href="#"></a> <span class="price"></span></p>
+      <p><a href="#">Corn Pizza</a> <span class="price">149</span></p>
+      <p><a href="#"></a> <span class="price"></span></p>
+      <p><a href="#">Panner Pizza</a> <span class="price">180</span></p>
+      <p><a href="#"></a> <span class="price"></span></p>
+      <p><a href="#">Chicken Cheesse Pizza</a> <span class="price">249</span></p>
+      <p><a href="#"></a> <span class="price"></span></p>
+      <hr>
+      <p>Total <span class="price" style="color:black"><b>778</b></span></p>
+      <p><a href="#"></a> <span class="price"></span></p>
+      <p><a href="Cart.html ">Checkout</a> <span class="price"></span></p>
+    </div>
+  </body>
+  <style>
+  span.price {
+  float: right;
+  color: black;
+}
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+.container {
+  background-color: #f2f2f2;
+   background:url("Green.jpeg");
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  height:63vh;
+
+}
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  padding: 0 16px;
+}
+a:hover{
+    background-color: red;
+    border-radius: 10px;
+}
+a{
+    padding: 1px;
+    color:white;
+    text-decoration: none;
+    border-radius:10px;
+}
+
+</html>

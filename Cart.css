@@ -1,0 +1,72 @@
+html {
+    font-family: McLaren,serif;
+}
+body{
+    background:url("Back1.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1550&w=940");
+    opacity: 20;
+}
+*{
+    margin:0px;
+    padding:0px;
+}
+/*Header Styling*/
+
+#top{
+    color:limegreen;
+    text-align:center;
+    font-size:46px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+#top1{
+    text-align:center;
+    color:limegreen;
+    font-size:21px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+/* Navigation bar styling*/
+
+/*Navbar image styling*/
+#navbar img{
+    display:block;
+    width: 50px;
+    height:50px;
+    margin:auto;
+    margin-bottom: 3px;
+}
+
+/*Navbar Functionality*/
+#navbar{
+    display:flex;
+    flex-direction: column;
+    background-color: gray;
+    height: 14vh;
+    width: 100vw;
+    font-family: 'Ubuntu Mono', monospace;
+    margin-top:10px;
+   border: 2px solid black;
+   border-radius:15px;
+}
+
+
+/*Navbar content functionality*/
+#navcontent{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*Navbar content styling*/
+ul li{
+    list-style: none;
+    margin: 5px;
+    border-radius: 20px;
+}
+ul li a{
+    padding: 1px;
+    color:white;
+    text-decoration: none;
+    border-radius:10px;
+}
+ul li a:hover{background-color: red;
+    border-radius: 10px;
+}
